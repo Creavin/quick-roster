@@ -1,0 +1,12 @@
+name: gurobi-solver
+
+channels:
+  - conda-forge
+  - gurobi
+  - defaults
+
+dependencies:
+  - python=3.6
+  - gurobi
+  - awscli
+

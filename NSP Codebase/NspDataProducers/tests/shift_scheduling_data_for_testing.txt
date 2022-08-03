@@ -1,0 +1,39 @@
+# This is a comment. Comments start with #
+
+SECTION_HORIZON
+# All instances start at 06:00 on the first day and finish at 06:00 on the last day.
+# The planning horizon length in days:
+5
+
+SECTION_TASKS
+# The number of different tasks
+2
+
+SECTION_STAFF
+# ID, MinTotalMinutes, MaxTotalMinutes
+1,2040,2400
+2,2220,2400
+3,900,1200
+
+SECTION_COVER
+# Day, Time, TaskID, Min, Max
+1,06:00-06:15,1,1,1
+1,06:15-06:30,1,1,1
+1,06:30-06:45,1,1,1
+1,06:45-07:00,1,1,1
+1,07:00-07:15,1,1,1
+2,00:00-00:15,1,1,5
+2,00:15-00:30,1,1,5
+2,00:30-00:45,1,1,5
+2,00:45-01:00,1,1,5
+2,01:00-01:15,1,1,5
+1,06:00-06:15,2,1,1
+1,06:15-06:30,2,1,1
+1,06:30-06:45,2,1,1
+1,06:45-07:00,2,1,1
+1,07:00-07:15,2,1,1
+2,00:00-00:15,2,1,5
+2,00:15-00:30,2,1,5
+2,00:30-00:45,2,1,5
+2,00:45-01:00,2,1,5
+2,01:00-01:15,2,1,5
